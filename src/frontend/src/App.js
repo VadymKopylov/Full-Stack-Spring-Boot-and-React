@@ -12,7 +12,8 @@ import {
     Tag,
     Avatar,
     Radio,
-    Popconfirm
+    Popconfirm,
+    Image
 } from 'antd';
 import {
     DesktopOutlined,
@@ -232,7 +233,11 @@ function App() {
                     {renderStudents()}
                 </div>
             </Content>
-            <Footer style={{textAlign: 'center'}}>Kopylov Design @2023 Created by Kopylov UED</Footer>
+            <Footer style={{textAlign: 'center'}}>
+                <Image width={75}
+                       src="https://user-images.githubusercontent.com/106687478/215760883-f2cf6875-a993-4e9d-a0b5-c25c7c3ab6fd.jpeg"
+                />
+            </Footer>
         </Layout>
     </Layout>
 }
